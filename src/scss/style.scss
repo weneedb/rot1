@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+  background-color: black;
+}
+
+// base
+@import "base/reset";
+@import "base/mixin";
+
+// section
+@import "layout/main";
+@import "layout/header";
+@import "layout/page1";
+@import "layout/page2";
+@import "layout/page3";
+@import "layout/page4";

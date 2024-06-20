@@ -1,0 +1,27 @@
+section {
+  //   background-color: white;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 16px;
+}
+
+// section {
+//   padding-top: 80px;
+// }
+
+.se1 {
+  background-color: red;
+}
+
+.se1 p {
+  margin-top: 80px;
+}
+
+.se2 {
+  background-color: white;
+}
+
+.se3 {
+  background-color: green;
+}

@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.img {
+  width: 50vmin;
+  margin-top: 15vmin;
+}
+
+svg path {
+  stroke: #ffc300;
+  stroke-width: 2;
+}
+
+.pf_texts {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 100px 0 40px;
+  color: white;
+}

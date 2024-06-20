@@ -1,0 +1,26 @@
+#header {
+  @include position-fixed;
+  z-index: 10000;
+}
+
+.header_inner {
+  @include flex-between;
+  padding: 1rem;
+  background-color: black;
+}
+
+.logo h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  border: 6px solid white;
+}
+
+.gnb {
+  display: flex;
+  gap: 1rem;
+}
+
+.gnb p {
+  color: white;
+}
