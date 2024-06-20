@@ -8,7 +8,7 @@ function Page3(props) {
   const text2 = " OFF THE WALL ".split("");
 
   const variants = {
-    start: { pathLength: 0, fill: "rgba(0, 0, 0,0)" },
+    start: { pathLength: 0, fill: "current" },
     end: { pathLength: 1, fill: "current" },
   };
 
