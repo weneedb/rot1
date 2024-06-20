@@ -1,0 +1,8 @@
+#footer {
+  @include position-absolute;
+  z-index: 10000;
+}
+
+.footer_t {
+  color: white;
+}

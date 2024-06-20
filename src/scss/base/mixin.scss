@@ -27,3 +27,8 @@
   top: 0;
   width: 100%;
 }
+
+@mixin position-absolute {
+  position: absolute;
+  bottom: 0;
+}
