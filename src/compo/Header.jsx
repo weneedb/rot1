@@ -12,17 +12,17 @@ function Header(props) {
             </Link>
           </div>
           <div className="gnb">
-            <Link to="/Page1">
-              <p>Page1</p>
+            <Link to="/all">
+              <p>All</p>
             </Link>
-            <Link to="/Page2">
-              <p>Page2</p>
+            <Link to="/project">
+              <p>Project</p>
             </Link>
-            <Link to="/Page3">
-              <p>Page3</p>
+            <Link to="/etc">
+              <p>ETC</p>
             </Link>
-            <Link to="/Page4">
-              <p>Page4</p>
+            <Link to="/About">
+              <p>About</p>
             </Link>
           </div>
         </div>

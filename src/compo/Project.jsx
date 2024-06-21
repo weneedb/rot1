@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 
-function Page1() {
+function Project() {
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Enter") {
@@ -31,12 +31,10 @@ function Page1() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
-            cupiditate fugit, magnam, nam inventore modi dolorem eius nemo nisi
-            at consectetur, animi possimus minus sint! Quis quibusdam beatae
-            molestiae saepe?
-          </p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          possimus vel officia aut mollitia? Quaerat molestias quasi possimus
+          dignissimos, illum autem minus ut tempora! Dolorum corrupti dolore
+          ipsa voluptas iusto!
         </motion.div>
 
         <motion.div
@@ -64,9 +62,22 @@ function Page1() {
         >
           1
         </motion.div>
+
+        <motion.div
+          className="se4"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
+          1
+        </motion.div>
       </section>
     </>
   );
 }
 
-export default Page1;
+export default Project;

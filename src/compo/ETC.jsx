@@ -1,12 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function Page2(props) {
+function ETC(props) {
   const navigate = useNavigate();
   return (
     <>
       <div className="bnavi">
-        <h1>Page2</h1>
+        <h1>ETC</h1>
         <ul>
           <li>
             <button onClick={() => navigate("/page1")}>⬅</button>
@@ -23,4 +23,4 @@ function Page2(props) {
   );
 }
 
-export default Page2;
+export default ETC;

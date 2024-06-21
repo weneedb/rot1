@@ -6,7 +6,7 @@ function Home(props) {
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Enter") {
-        window.location.href = "/page1";
+        window.location.href = "/all";
       }
     };
 
@@ -17,7 +17,7 @@ function Home(props) {
   }, []);
   return (
     <>
-      <Link to="/page3">
+      <Link to="/all">
         <div className="title">
           <h1>1234</h1>
           <p className="blink">Please press Enter</p>

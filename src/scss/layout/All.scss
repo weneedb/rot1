@@ -1,0 +1,118 @@
+// .App {
+//   font-family: sans-serif;
+//   text-align: center;
+//   display: flex;
+//   gap: 10rem;
+// }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  text-align: center;
+  overflow-y: auto;
+}
+
+//item
+.img {
+  // width: 50vmin;
+  width: 20vmin;
+  // margin-top: 15vmin;
+}
+
+.item_text {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 100px 0 40px;
+  color: white;
+}
+
+//project_
+.project {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.project_item {
+  display: flex;
+  gap: 10rem;
+}
+
+.project_title {
+  margin-top: 80px;
+}
+
+.project_title h2 {
+  color: #fff;
+}
+
+//item01
+.item01 svg path {
+  stroke: #ffc300;
+  stroke-width: 2;
+  transition: fill 0.5s ease-in-out;
+}
+
+.item01 .img:hover {
+  fill: #ffc300;
+}
+
+//item02
+.item02 svg path {
+  stroke: #d51920;
+  stroke-width: 2;
+  transition: fill 0.5s ease-in-out;
+}
+
+.item02 .img:hover {
+  fill: #d51920;
+}
+
+//item03
+.item03 svg path {
+  stroke: #d51920;
+  stroke-width: 2;
+  transition: fill 0.5s ease-in-out;
+}
+
+.item03 .img:hover {
+  fill: #d51920;
+}
+
+//item04
+.item04 svg path {
+  stroke: #d51920;
+  stroke-width: 2;
+  transition: fill 0.5s ease-in-out;
+}
+
+.item04 .img:hover {
+  fill: #d51920;
+}
+
+//item05
+.item05 svg path {
+  stroke: #fff;
+  stroke-width: 2;
+  transition: fill 0.5s ease-in-out;
+}
+
+.item05 .img:hover {
+  fill: #fff;
+}
+
+//etc
+.etc_item {
+  display: flex;
+  gap: 10rem;
+}
+
+.etc h2 {
+  color: #fff;
+}

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+  // margin-top: 80px;
   background-color: black;
 }
 
@@ -8,11 +9,11 @@ body {
 @import "base/reset";
 @import "base/mixin";
 
-// section
+// sectiona
 @import "layout/main";
 @import "layout/header";
-@import "layout/page1";
-@import "layout/page2";
-@import "layout/page3";
-@import "layout/page4";
+@import "layout/All";
+@import "layout/Project";
+@import "layout/ETC";
+@import "layout/About";
 @import "layout/Footer";
