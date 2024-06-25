@@ -19,7 +19,7 @@ function Home(props) {
     <>
       <Link to="/all">
         <div className="title">
-          <h1>1234</h1>
+          <h1>🙈🙉🙊</h1>
           <p className="blink">Please press Enter</p>
         </div>
       </Link>

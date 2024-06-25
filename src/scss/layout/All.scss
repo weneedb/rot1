@@ -9,7 +9,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: black;
   text-align: center;
   overflow-y: auto;
 }
@@ -87,12 +86,22 @@ body {
 
 //item04
 .item04 svg path {
-  stroke: #d51920;
+  stroke: white;
   stroke-width: 2;
   transition: fill 0.5s ease-in-out;
 }
 
 .item04 .img:hover {
+  fill: white;
+  // fill: black;
+}
+
+.item04 .vans2 {
+  stroke: #d51920;
+  stroke-width: 2;
+}
+
+.item04 .img:hover .vans2 {
   fill: #d51920;
 }
 
@@ -105,6 +114,15 @@ body {
 
 .item05 .img:hover {
   fill: #fff;
+}
+
+.item05 .img2 {
+  stroke: red;
+  stroke-width: 2;
+}
+
+.item05 .img:hover .img2 {
+  fill: red;
 }
 
 //etc

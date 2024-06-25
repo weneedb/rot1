@@ -31,10 +31,7 @@ function Project() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          possimus vel officia aut mollitia? Quaerat molestias quasi possimus
-          dignissimos, illum autem minus ut tempora! Dolorum corrupti dolore
-          ipsa voluptas iusto!
+          <img src="../public/mac.svg" alt="" />
         </motion.div>
 
         <motion.div
@@ -47,9 +44,8 @@ function Project() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          1
+          <img src="../public/vans2.svg" alt="" />
         </motion.div>
-
         <motion.div
           className="se3"
           initial={{ opacity: 0, scale: 0.5 }}
@@ -60,7 +56,7 @@ function Project() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          1
+          <img src="../public/vans2.svg" alt="" />
         </motion.div>
 
         <motion.div
@@ -73,7 +69,7 @@ function Project() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          1
+          <img src="../public/vans2.svg" alt="" />
         </motion.div>
       </section>
     </>

@@ -1,21 +1,23 @@
 section {
   //   background-color: white;
   min-height: 100vh;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px 16px;
+  // align-items: center;
 }
 
-// section {
-//   padding-top: 80px;
-// }
+.se1,
+.se2,
+.se3,
+.se4 {
+  width: 460px;
+  // height: 500px;
+}
 
 .se1 {
   background-color: red;
-}
-
-.se1 p {
-  margin-top: 80px;
 }
 
 .se2 {
@@ -28,4 +30,9 @@ section {
 
 .se4 {
   background-color: blue;
+}
+
+img {
+  margin-top: 80px;
+  width: 300px;
 }
