@@ -8,7 +8,7 @@ function Header(props) {
         <div className="header_inner">
           <div className="logo">
             <Link to="/">
-              <h1>🙈🙉🙊</h1>
+              <h1>LOGO</h1>
             </Link>
           </div>
           <div className="gnb">

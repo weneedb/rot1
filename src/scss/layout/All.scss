@@ -64,24 +64,35 @@ body {
 
 //item02
 .item02 svg path {
-  stroke: #d51920;
+  stroke: #003975;
   stroke-width: 2;
   transition: fill 0.5s ease-in-out;
 }
 
 .item02 .img:hover {
-  fill: #d51920;
+  fill: #003975;
+}
+
+.item02 .kyobo {
+  stroke: #4db848;
+  stroke-width: 2;
+  transition: fill 0.5s ease-in-out;
+  scale: 90%;
+}
+
+.item02 .img:hover .kyobo {
+  fill: #4db848;
 }
 
 //item03
 .item03 svg path {
-  stroke: #d51920;
+  stroke: #46ae4e;
   stroke-width: 2;
   transition: fill 0.5s ease-in-out;
 }
 
 .item03 .img:hover {
-  fill: #d51920;
+  fill: #46ae4e;
 }
 
 //item04
